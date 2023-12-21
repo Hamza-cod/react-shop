@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary text-primary;
+  }
+}
+.bg-primar{
+  @apply bg-blue-400
+}
+
+.primary
+{
+  @apply bg-blue-600/80
+}
