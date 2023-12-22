@@ -20,7 +20,7 @@ const ProductDetails = () => {
   useEffect(() => {
      document.title = 'Product Datials'
      window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-  }, [document,currProduct]);
+  }, [currProduct]);
   
   if(!currProduct){
     return <section className='min-h-screen pt-[100px] flex items-center justify-center  '>Loading....</section>

@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import {IoMdClose} from 'react-icons/io'
 
-import { FiTrash2 } from "react-icons/fi";
 
 import { CartContext } from '../contexts/CartContext';
 
