@@ -23,7 +23,7 @@ const products = useContext(ProductContext)
  const [categ,setCateg] = useState(categWithouSps?categWithouSps:'')
  useEffect(()=>{
    document.title = `${categ?categ:'All product'}`
- })
+ },[categ])
 
 //  const [pruducByCateg,setProductBC] = useState([])
 
