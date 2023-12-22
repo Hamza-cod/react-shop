@@ -37,7 +37,7 @@ const Header = () => {
         <img src={logo} alt="" className='w-9' />
       </Link>
 
-      <Link to='/all-product/#/'>All pp products</Link>
+      <Link to='/all-product/#/'>All products</Link>
     <div onClick={()=>handelClose(true)} className='p-4 relative max-w-max cursor-pointer' id='bag'>
       <BsBag className='text-xl'/>
       <div className={` ${itemAmount<1?'opacity-0':'opacity-100'} absolute bottom-1 right-1
