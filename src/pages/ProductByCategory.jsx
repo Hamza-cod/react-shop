@@ -13,10 +13,10 @@ const products = useContext(ProductContext)
 
   // -------------- conexts ---------------------
   //  let categoryName = {name:''}
-  let categoryName = useParams()
+  let {categoryName} = useParams()
   let  categWithouSps =null
-  if(categoryName.name){
-    categWithouSps=categoryName.name.replace('%', ' ')
+  if(categoryName){
+    categWithouSps=categoryName.replace('%', ' ')
   }
   
  const catg = useRef(null)
